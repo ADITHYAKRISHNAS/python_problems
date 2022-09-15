@@ -1,0 +1,7 @@
+f1 = open("1.txt","r")
+print("First four Charechters")
+print(f1.read(4))
+print("Fist Line")
+print(f1.readline())
+print("Entire line")
+print(f1.read())
